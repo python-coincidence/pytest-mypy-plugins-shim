@@ -79,7 +79,7 @@ See https://github.com/TypedDjango/pytest-mypy-plugins for the action pytest plu
 .. |language| image:: https://img.shields.io/github/languages/top/domdfcoding/pytest-mypy-plugins-shim
 	:alt: GitHub top language
 
-.. |commits-since| image:: https://img.shields.io/github/commits-since/domdfcoding/pytest-mypy-plugins-shim/v0.0.0
+.. |commits-since| image:: https://img.shields.io/github/commits-since/domdfcoding/pytest-mypy-plugins-shim/v0.1.0
 	:target: https://github.com/domdfcoding/pytest-mypy-plugins-shim/pulse
 	:alt: GitHub commits since tagged version
 
