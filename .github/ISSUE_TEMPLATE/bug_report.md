@@ -38,7 +38,7 @@ THE ISSUE WILL BE CLOSED IF INSUFFICIENT INFORMATION IS PROVIDED.
 
   * Operating System:
   * Python:
-  * pytest-mypy-plugin-shim:
+  * pytest-mypy-plugins-shim:
 
 ## Installation source
 <!-- e.g. Github repository, Github Releases, PyPI/pip, Anaconda/conda -->

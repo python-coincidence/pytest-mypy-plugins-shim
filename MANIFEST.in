@@ -2,5 +2,5 @@ include __pkginfo__.py
 include LICENSE
 include requirements.txt
 prune **/__pycache__
-recursive-include pytest_mypy_plugin_shim *.pyi
-include pytest_mypy_plugin_shim/py.typed
+recursive-include pytest_mypy_plugins_shim *.pyi
+include pytest_mypy_plugins_shim/py.typed

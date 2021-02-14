@@ -1,6 +1,6 @@
 # Configuration for 'repo_helper' (https://github.com/domdfcoding/repo_helper)
 ---
-modname: 'pytest-mypy-plugin-shim'
+modname: 'pytest-mypy-plugins-shim'
 copyright_years: '2021'
 author: 'Dominic Davis-Foster'
 email: 'dominic@davis-foster.co.uk'
@@ -13,3 +13,7 @@ short_desc: 'Substitute for "pytest-mypy-plugins" for Python implementations whi
 enable_conda: false
 enable_docs: false
 enable_tests: false
+
+entry_points:
+ pytest11:
+  - "pytest-mypy-plugins-shim = pytest_mypy_plugins_shim"

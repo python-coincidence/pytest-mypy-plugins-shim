@@ -20,7 +20,7 @@ assignees: domdfcoding
 
   * Operating System:
   * Python:
-  * pytest-mypy-plugin-shim:
+  * pytest-mypy-plugins-shim:
 
 
 ## Other Additional Information:

@@ -31,5 +31,5 @@ lines_between_types = 0
 use_parentheses = true
 remove_redundant_aliases = true
 default_section = "THIRDPARTY"
-known_third_party = []
-known_first_party = "pytest_mypy_plugin_shim"
+known_third_party = [ "pytest",]
+known_first_party = "pytest_mypy_plugins_shim"

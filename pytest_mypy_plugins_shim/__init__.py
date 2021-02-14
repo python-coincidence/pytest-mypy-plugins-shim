@@ -7,6 +7,9 @@ Substitute for "pytest-mypy-plugins" for Python implementations which aren't sup
 #
 #  Copyright © 2021 Dominic Davis-Foster <dominic@davis-foster.co.uk>
 #
+# Based on https://github.com/TypedDjango/pytest-mypy-plugins
+# Copyright 2018 Maksim Kurnikov
+#
 #  Permission is hereby granted, free of charge, to any person obtaining a copy
 #  of this software and associated documentation files (the "Software"), to deal
 #  in the Software without restriction, including without limitation the rights
@@ -26,8 +29,45 @@ Substitute for "pytest-mypy-plugins" for Python implementations which aren't sup
 #  OR OTHER DEALINGS IN THE SOFTWARE.
 #
 
+# stdlib
+import tempfile
+
+# 3rd party
+from _pytest.config.argparsing import Parser  # nodep
+
+__all__ = ["pytest_addoption"]
+
 __author__: str = "Dominic Davis-Foster"
 __copyright__: str = "2021 Dominic Davis-Foster"
 __license__: str = "MIT License"
 __version__: str = "0.0.0"
 __email__: str = "dominic@davis-foster.co.uk"
+
+
+def pytest_addoption(parser: Parser) -> None:
+	group = parser.getgroup("mypy-tests")
+	group.addoption(
+			"--mypy-testing-base",
+			type=str,
+			default=tempfile.gettempdir(),
+			help="Base directory for tests to use",
+			)
+
+	group.addoption(
+			"--mypy-ini-file",
+			type=str,
+			help="Which .ini file to use as a default config for tests",
+			)
+
+	group.addoption(
+			"--mypy-same-process",
+			action="store_true",
+			help="Run in the same process. Useful for debugging, will create problems with import cache",
+			)
+
+	group.addoption(
+			"--mypy-extension-hook",
+			type=str,
+			help="Fully qualifield path to the extension hook function, in case you need custom yaml keys. "
+			"Has to be top-level.",
+			)
