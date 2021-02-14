@@ -8,6 +8,8 @@ pytest-mypy-plugin-shim
 
 .. end short_desc
 
+See https://github.com/TypedDjango/pytest-mypy-plugins for the action pytest plugin.
+
 
 .. start shields
 

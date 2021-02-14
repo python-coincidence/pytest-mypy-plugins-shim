@@ -44,7 +44,7 @@ __version__: str = "0.0.0"
 __email__: str = "dominic@davis-foster.co.uk"
 
 
-def pytest_addoption(parser: Parser) -> None:
+def pytest_addoption(parser: Parser) -> None:  # noqa: D103
 	group = parser.getgroup("mypy-tests")
 	group.addoption(
 			"--mypy-testing-base",
