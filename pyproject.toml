@@ -2,4 +2,26 @@
 requires = [ "setuptools>=40.6.0", "wheel>=0.34.2",]
 build-backend = "setuptools.build_meta"
 
+[project]
+name = "pytest-mypy-plugins-shim"
+version = "0.1.0"
+description = "Substitute for \"pytest-mypy-plugins\" for Python implementations which aren't supported by mypy."
+readme = "README.rst"
+keywords = []
+dynamic = [ "requires-python", "classifiers", "dependencies",]
+[[project.authors]]
+email = "dominic@davis-foster.co.uk"
+name = "Dominic Davis-Foster"
+
 [tool.importcheck]
+
+[project.license]
+file = "LICENSE"
+
+[project.urls]
+Homepage = "https://github.com/domdfcoding/pytest-mypy-plugins-shim"
+"Issue Tracker" = "https://github.com/domdfcoding/pytest-mypy-plugins-shim/issues"
+"Source Code" = "https://github.com/domdfcoding/pytest-mypy-plugins-shim"
+
+[project.entry-points.pytest11]
+pytest-mypy-plugins-shim = "pytest_mypy_plugins_shim"
