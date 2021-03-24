@@ -28,32 +28,32 @@ See https://github.com/TypedDjango/pytest-mypy-plugins for the action pytest plu
 	* - Other
 	  - |license| |language| |requires|
 
-.. |actions_linux| image:: https://github.com/domdfcoding/pytest-mypy-plugins-shim/workflows/Linux/badge.svg
-	:target: https://github.com/domdfcoding/pytest-mypy-plugins-shim/actions?query=workflow%3A%22Linux%22
+.. |actions_linux| image:: https://github.com/python-coincidence/pytest-mypy-plugins-shim/workflows/Linux/badge.svg
+	:target: https://github.com/python-coincidence/pytest-mypy-plugins-shim/actions?query=workflow%3A%22Linux%22
 	:alt: Linux Test Status
 
-.. |actions_windows| image:: https://github.com/domdfcoding/pytest-mypy-plugins-shim/workflows/Windows/badge.svg
-	:target: https://github.com/domdfcoding/pytest-mypy-plugins-shim/actions?query=workflow%3A%22Windows%22
+.. |actions_windows| image:: https://github.com/python-coincidence/pytest-mypy-plugins-shim/workflows/Windows/badge.svg
+	:target: https://github.com/python-coincidence/pytest-mypy-plugins-shim/actions?query=workflow%3A%22Windows%22
 	:alt: Windows Test Status
 
-.. |actions_macos| image:: https://github.com/domdfcoding/pytest-mypy-plugins-shim/workflows/macOS/badge.svg
-	:target: https://github.com/domdfcoding/pytest-mypy-plugins-shim/actions?query=workflow%3A%22macOS%22
+.. |actions_macos| image:: https://github.com/python-coincidence/pytest-mypy-plugins-shim/workflows/macOS/badge.svg
+	:target: https://github.com/python-coincidence/pytest-mypy-plugins-shim/actions?query=workflow%3A%22macOS%22
 	:alt: macOS Test Status
 
-.. |actions_flake8| image:: https://github.com/domdfcoding/pytest-mypy-plugins-shim/workflows/Flake8/badge.svg
-	:target: https://github.com/domdfcoding/pytest-mypy-plugins-shim/actions?query=workflow%3A%22Flake8%22
+.. |actions_flake8| image:: https://github.com/python-coincidence/pytest-mypy-plugins-shim/workflows/Flake8/badge.svg
+	:target: https://github.com/python-coincidence/pytest-mypy-plugins-shim/actions?query=workflow%3A%22Flake8%22
 	:alt: Flake8 Status
 
-.. |actions_mypy| image:: https://github.com/domdfcoding/pytest-mypy-plugins-shim/workflows/mypy/badge.svg
-	:target: https://github.com/domdfcoding/pytest-mypy-plugins-shim/actions?query=workflow%3A%22mypy%22
+.. |actions_mypy| image:: https://github.com/python-coincidence/pytest-mypy-plugins-shim/workflows/mypy/badge.svg
+	:target: https://github.com/python-coincidence/pytest-mypy-plugins-shim/actions?query=workflow%3A%22mypy%22
 	:alt: mypy status
 
-.. |requires| image:: https://requires.io/github/domdfcoding/pytest-mypy-plugins-shim/requirements.svg?branch=master
-	:target: https://requires.io/github/domdfcoding/pytest-mypy-plugins-shim/requirements/?branch=master
+.. |requires| image:: https://requires.io/github/python-coincidence/pytest-mypy-plugins-shim/requirements.svg?branch=master
+	:target: https://requires.io/github/python-coincidence/pytest-mypy-plugins-shim/requirements/?branch=master
 	:alt: Requirements Status
 
-.. |codefactor| image:: https://img.shields.io/codefactor/grade/github/domdfcoding/pytest-mypy-plugins-shim?logo=codefactor
-	:target: https://www.codefactor.io/repository/github/domdfcoding/pytest-mypy-plugins-shim
+.. |codefactor| image:: https://img.shields.io/codefactor/grade/github/python-coincidence/pytest-mypy-plugins-shim?logo=codefactor
+	:target: https://www.codefactor.io/repository/github/python-coincidence/pytest-mypy-plugins-shim
 	:alt: CodeFactor Grade
 
 .. |pypi-version| image:: https://img.shields.io/pypi/v/pytest-mypy-plugins-shim
@@ -72,19 +72,19 @@ See https://github.com/TypedDjango/pytest-mypy-plugins for the action pytest plu
 	:target: https://pypi.org/project/pytest-mypy-plugins-shim/
 	:alt: PyPI - Wheel
 
-.. |license| image:: https://img.shields.io/github/license/domdfcoding/pytest-mypy-plugins-shim
-	:target: https://github.com/domdfcoding/pytest-mypy-plugins-shim/blob/master/LICENSE
+.. |license| image:: https://img.shields.io/github/license/python-coincidence/pytest-mypy-plugins-shim
+	:target: https://github.com/python-coincidence/pytest-mypy-plugins-shim/blob/master/LICENSE
 	:alt: License
 
-.. |language| image:: https://img.shields.io/github/languages/top/domdfcoding/pytest-mypy-plugins-shim
+.. |language| image:: https://img.shields.io/github/languages/top/python-coincidence/pytest-mypy-plugins-shim
 	:alt: GitHub top language
 
-.. |commits-since| image:: https://img.shields.io/github/commits-since/domdfcoding/pytest-mypy-plugins-shim/v0.1.0
-	:target: https://github.com/domdfcoding/pytest-mypy-plugins-shim/pulse
+.. |commits-since| image:: https://img.shields.io/github/commits-since/python-coincidence/pytest-mypy-plugins-shim/v0.1.0
+	:target: https://github.com/python-coincidence/pytest-mypy-plugins-shim/pulse
 	:alt: GitHub commits since tagged version
 
-.. |commits-latest| image:: https://img.shields.io/github/last-commit/domdfcoding/pytest-mypy-plugins-shim
-	:target: https://github.com/domdfcoding/pytest-mypy-plugins-shim/commit/master
+.. |commits-latest| image:: https://img.shields.io/github/last-commit/python-coincidence/pytest-mypy-plugins-shim
+	:target: https://github.com/python-coincidence/pytest-mypy-plugins-shim/commit/master
 	:alt: GitHub last commit
 
 .. |maintained| image:: https://img.shields.io/maintenance/yes/2021
@@ -94,8 +94,8 @@ See https://github.com/TypedDjango/pytest-mypy-plugins for the action pytest plu
 	:target: https://pypi.org/project/pytest-mypy-plugins-shim/
 	:alt: PyPI - Downloads
 
-.. |pre_commit_ci| image:: https://results.pre-commit.ci/badge/github/domdfcoding/pytest-mypy-plugins-shim/master.svg
-	:target: https://results.pre-commit.ci/latest/github/domdfcoding/pytest-mypy-plugins-shim/master
+.. |pre_commit_ci| image:: https://results.pre-commit.ci/badge/github/python-coincidence/pytest-mypy-plugins-shim/master.svg
+	:target: https://results.pre-commit.ci/latest/github/python-coincidence/pytest-mypy-plugins-shim/master
 	:alt: pre-commit.ci status
 
 .. end shields

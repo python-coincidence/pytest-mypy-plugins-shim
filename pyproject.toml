@@ -13,15 +13,15 @@ dynamic = [ "requires-python", "classifiers", "dependencies",]
 email = "dominic@davis-foster.co.uk"
 name = "Dominic Davis-Foster"
 
-[tool.importcheck]
-
 [project.license]
 file = "LICENSE"
 
 [project.urls]
-Homepage = "https://github.com/domdfcoding/pytest-mypy-plugins-shim"
-"Issue Tracker" = "https://github.com/domdfcoding/pytest-mypy-plugins-shim/issues"
-"Source Code" = "https://github.com/domdfcoding/pytest-mypy-plugins-shim"
+Homepage = "https://github.com/python-coincidence/pytest-mypy-plugins-shim"
+"Issue Tracker" = "https://github.com/python-coincidence/pytest-mypy-plugins-shim/issues"
+"Source Code" = "https://github.com/python-coincidence/pytest-mypy-plugins-shim"
+
+[tool.importcheck]
 
 [project.entry-points.pytest11]
 pytest-mypy-plugins-shim = "pytest_mypy_plugins_shim"
