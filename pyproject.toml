@@ -9,9 +9,11 @@ description = "Substitute for \"pytest-mypy-plugins\" for Python implementations
 readme = "README.rst"
 keywords = []
 dynamic = [ "requires-python", "classifiers", "dependencies",]
+
 [[project.authors]]
 email = "dominic@davis-foster.co.uk"
 name = "Dominic Davis-Foster"
+
 
 [project.license]
 file = "LICENSE"
@@ -22,6 +24,7 @@ Homepage = "https://github.com/python-coincidence/pytest-mypy-plugins-shim"
 "Source Code" = "https://github.com/python-coincidence/pytest-mypy-plugins-shim"
 
 [tool.importcheck]
+always = ["pytest_mypy_plugins_shim"]
 
 [project.entry-points.pytest11]
 pytest-mypy-plugins-shim = "pytest_mypy_plugins_shim"
