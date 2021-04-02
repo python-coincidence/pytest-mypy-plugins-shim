@@ -24,7 +24,13 @@ Homepage = "https://github.com/python-coincidence/pytest-mypy-plugins-shim"
 "Source Code" = "https://github.com/python-coincidence/pytest-mypy-plugins-shim"
 
 [tool.importcheck]
-always = ["pytest_mypy_plugins_shim"]
+always = [ "pytest_mypy_plugins_shim",]
+
+[tool.mkrecipe]
+conda-channels = [ "python-coincidence",]
+extras = "all"
+license-key = "MIT"
+package = "pytest_mypy_plugins_shim"
 
 [project.entry-points.pytest11]
 pytest-mypy-plugins-shim = "pytest_mypy_plugins_shim"
