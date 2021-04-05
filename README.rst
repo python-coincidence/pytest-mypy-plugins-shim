@@ -24,7 +24,7 @@ See https://github.com/TypedDjango/pytest-mypy-plugins for the action pytest plu
 	* - Activity
 	  - |commits-latest| |commits-since| |maintained| |pypi-downloads|
 	* - QA
-	  - |codefactor| |actions_flake8| |actions_mypy| |pre_commit_ci|
+	  - |codefactor| |actions_flake8| |actions_mypy|
 	* - Other
 	  - |license| |language| |requires|
 
@@ -93,10 +93,6 @@ See https://github.com/TypedDjango/pytest-mypy-plugins for the action pytest plu
 .. |pypi-downloads| image:: https://img.shields.io/pypi/dm/pytest-mypy-plugins-shim
 	:target: https://pypi.org/project/pytest-mypy-plugins-shim/
 	:alt: PyPI - Downloads
-
-.. |pre_commit_ci| image:: https://results.pre-commit.ci/badge/github/python-coincidence/pytest-mypy-plugins-shim/master.svg
-	:target: https://results.pre-commit.ci/latest/github/python-coincidence/pytest-mypy-plugins-shim/master
-	:alt: pre-commit.ci status
 
 .. end shields
 
