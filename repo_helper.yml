@@ -19,3 +19,8 @@ enable_tests: false
 entry_points:
  pytest11:
   - "pytest-mypy-plugins-shim = pytest_mypy_plugins_shim"
+
+python_versions:
+ - pypy36
+ - pypy37
+ - 3.10-dev
