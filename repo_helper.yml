@@ -11,6 +11,7 @@ license: 'MIT'
 short_desc: 'Substitute for "pytest-mypy-plugins" for Python implementations which
   aren''t supported by mypy.'
 
+use_whey: true
 enable_conda: false
 enable_docs: false
 enable_tests: false

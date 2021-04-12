@@ -1,6 +1,6 @@
 [build-system]
-requires = [ "setuptools>=40.6.0", "wheel>=0.34.2",]
-build-backend = "setuptools.build_meta"
+requires = [ "whey",]
+build-backend = "whey"
 
 [project]
 name = "pytest-mypy-plugins-shim"
@@ -29,6 +29,14 @@ always = [ "pytest_mypy_plugins_shim",]
 [tool.mkrecipe]
 conda-channels = [ "python-coincidence",]
 extras = "all"
+license-key = "MIT"
+package = "pytest_mypy_plugins_shim"
+
+[tool.whey]
+base-classifiers = []
+python-versions = [ "3.6",]
+python-implementations = [ "CPython",]
+platforms = [ "Windows", "macOS", "Linux",]
 license-key = "MIT"
 package = "pytest_mypy_plugins_shim"
 
