@@ -48,8 +48,8 @@ See https://github.com/TypedDjango/pytest-mypy-plugins for the actual pytest plu
 	:target: https://github.com/python-coincidence/pytest-mypy-plugins-shim/actions?query=workflow%3A%22mypy%22
 	:alt: mypy status
 
-.. |requires| image:: https://requires.io/github/python-coincidence/pytest-mypy-plugins-shim/requirements.svg?branch=master
-	:target: https://requires.io/github/python-coincidence/pytest-mypy-plugins-shim/requirements/?branch=master
+.. |requires| image:: https://dependency-dash.herokuapp.com/github/python-coincidence/pytest-mypy-plugins-shim/badge.svg
+	:target: https://dependency-dash.herokuapp.com/github/python-coincidence/pytest-mypy-plugins-shim/
 	:alt: Requirements Status
 
 .. |codefactor| image:: https://img.shields.io/codefactor/grade/github/python-coincidence/pytest-mypy-plugins-shim?logo=codefactor
@@ -87,7 +87,7 @@ See https://github.com/TypedDjango/pytest-mypy-plugins for the actual pytest plu
 	:target: https://github.com/python-coincidence/pytest-mypy-plugins-shim/commit/master
 	:alt: GitHub last commit
 
-.. |maintained| image:: https://img.shields.io/maintenance/yes/2021
+.. |maintained| image:: https://img.shields.io/maintenance/yes/2022
 	:alt: Maintenance
 
 .. |pypi-downloads| image:: https://img.shields.io/pypi/dm/pytest-mypy-plugins-shim
