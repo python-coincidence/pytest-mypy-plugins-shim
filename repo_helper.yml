@@ -23,4 +23,7 @@ entry_points:
 python_versions:
  - pypy36
  - pypy37
- - 3.10-dev
+ - pypy38
+ - pypy39
+ - "3.10"
+ - "3.11-dev"
