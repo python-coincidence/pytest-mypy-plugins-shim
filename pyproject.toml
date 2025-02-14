@@ -4,7 +4,7 @@ build-backend = "whey"
 
 [project]
 name = "pytest-mypy-plugins-shim"
-version = "0.2.0"
+version = "0.3.0"
 description = "Substitute for \"pytest-mypy-plugins\" for Python implementations which aren't supported by mypy."
 readme = "README.rst"
 keywords = []
