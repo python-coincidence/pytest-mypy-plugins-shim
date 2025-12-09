@@ -21,11 +21,10 @@ entry_points:
   - "pytest-mypy-plugins-shim = pytest_mypy_plugins_shim"
 
 python_versions:
- - pypy36
- - pypy37
- - pypy38
- - pypy39
- - "3.10"
- - "3.11"
- - "3.12"
- - "3.13-dev"
+ pypy37:
+ pypy38:
+ pypy39:
+ "3.10":
+ "3.11":
+ "3.12":
+ "3.13":
