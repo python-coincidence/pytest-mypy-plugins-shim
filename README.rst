@@ -87,11 +87,11 @@ See https://github.com/TypedDjango/pytest-mypy-plugins for the actual pytest plu
 	:target: https://github.com/python-coincidence/pytest-mypy-plugins-shim/commit/master
 	:alt: GitHub last commit
 
-.. |maintained| image:: https://img.shields.io/maintenance/yes/2025
+.. |maintained| image:: https://img.shields.io/maintenance/yes/2026
 	:alt: Maintenance
 
 .. |pypi-downloads| image:: https://img.shields.io/pypi/dm/pytest-mypy-plugins-shim
-	:target: https://pypi.org/project/pytest-mypy-plugins-shim/
+	:target: https://pypistats.org/packages/pytest-mypy-plugins-shim
 	:alt: PyPI - Downloads
 
 .. end shields
